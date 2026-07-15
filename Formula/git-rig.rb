@@ -1,25 +1,25 @@
 class GitRig < Formula
   desc "Git worktree workspace manager for multi-repo development"
   homepage "https://github.com/cemcatik/git-rig"
-  version "0.6.2"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cemcatik/git-rig/releases/download/v0.6.2/git-rig-aarch64-apple-darwin.tar.xz"
-      sha256 "ded6f12c7992f0cda4c7b3ad6b075ad6851f99db166cc294c14bf42057bcf0da"
+      url "https://github.com/cemcatik/git-rig/releases/download/v0.7.0/git-rig-aarch64-apple-darwin.tar.xz"
+      sha256 "bd9c2d2456f58f97ed0f88d7c493a333fa723938536f1aa4e6fdb228dc4d3214"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cemcatik/git-rig/releases/download/v0.6.2/git-rig-x86_64-apple-darwin.tar.xz"
-      sha256 "a5e809fd49a44c198af2884f1a6e28092205c9da77510f1b2ac4bfebb1c1bc91"
+      url "https://github.com/cemcatik/git-rig/releases/download/v0.7.0/git-rig-x86_64-apple-darwin.tar.xz"
+      sha256 "eec9727c57b2c766a43bd2c866eac5cd25490e21e0546197878b073cbe2ff46d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cemcatik/git-rig/releases/download/v0.6.2/git-rig-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4d927f36fd4c393bbd883b6e4c36c772da8cb0f4640c6333a4a568b7855650f3"
+      url "https://github.com/cemcatik/git-rig/releases/download/v0.7.0/git-rig-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d34b445d153d8cafa3faa0ec7b55deabe474d543c5d243d0f1682e10b70d70d6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cemcatik/git-rig/releases/download/v0.6.2/git-rig-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "de0215345dd8013231e7358153278367c79e38cbbf25dcd3538f39c77aa0d8e1"
+      url "https://github.com/cemcatik/git-rig/releases/download/v0.7.0/git-rig-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "333001eb54cb952021f3fe03a1ac59f1dbc7c4e77b68aa0be92b71b62481749c"
     end
   end
   license "MIT"
