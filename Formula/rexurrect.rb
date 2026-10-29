@@ -1,25 +1,25 @@
 class Rexurrect < Formula
   desc "Save Rex sessions and recreate them after the Rex server stops"
   homepage "https://github.com/cemcatik/rexurrect"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/cemcatik/rexurrect/releases/download/v0.2.0/rexurrect-aarch64-apple-darwin.tar.xz"
-      sha256 "228f4cfa8ed812086757755c84c3f42078bf288ff6960db0da7c4d45d94649b6"
+      url "https://github.com/cemcatik/rexurrect/releases/download/v0.2.1/rexurrect-aarch64-apple-darwin.tar.xz"
+      sha256 "1617585b74b230f26c71f528be5d2fb9f4bbe5381d51bea2c308156187056877"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cemcatik/rexurrect/releases/download/v0.2.0/rexurrect-x86_64-apple-darwin.tar.xz"
-      sha256 "169f9e658067bc3b23fae1d3ed9a7ee642122270b5f3d20a1ddec12aa4d268fd"
+      url "https://github.com/cemcatik/rexurrect/releases/download/v0.2.1/rexurrect-x86_64-apple-darwin.tar.xz"
+      sha256 "b2270a2322f76fdec581b29d918e5d1d19c7ffb38973929cc790919e40c53212"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/cemcatik/rexurrect/releases/download/v0.2.0/rexurrect-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "bf97d67ffa3cc73df9ecf3f11a6904f8dcb7cfa95bc3c4638458587cfd009365"
+      url "https://github.com/cemcatik/rexurrect/releases/download/v0.2.1/rexurrect-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "de055e919e6f4353d890545b1551258941301075b310b6e0c6ba94a70d2f956a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/cemcatik/rexurrect/releases/download/v0.2.0/rexurrect-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "bdb727a1e17bdf06ea45b1e3806e957475760c944a959ab7b03df7840d25432f"
+      url "https://github.com/cemcatik/rexurrect/releases/download/v0.2.1/rexurrect-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "d411b13760365fc6bf6eda66abde9f454018c53dc632e597509c283a3820369a"
     end
   end
   license "MIT"
